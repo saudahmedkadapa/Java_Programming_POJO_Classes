@@ -1,0 +1,6 @@
+package com.demo.Service;
+
+public interface StudentServiceImpl {
+	void marks(int m1,int m2,int m3);
+
+}

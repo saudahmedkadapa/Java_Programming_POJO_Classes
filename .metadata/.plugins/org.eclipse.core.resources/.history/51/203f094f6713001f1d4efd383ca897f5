@@ -1,0 +1,28 @@
+package com.demo.test;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
+
+import com.demo.beans.*;
+public class MyClassTest {
+
+	public static void main(String[] args) {
+		
+		MyClass obj = new MyClass();
+		Class cls = obj.getClass();
+		
+		Constructor[] c1 = cls.getConstructors();
+		
+		for(Constructor a:c1)
+		{
+			System.out.println(a.getName()+"-->"+a.getParameters());
+		}
+		
+		Method[] m = cls.getMethods();
+		for(Method me: m)
+		{
+			System.out.println(me.getName()+"--->"+me.getParameters());
+		}
+
+	}
+
+}

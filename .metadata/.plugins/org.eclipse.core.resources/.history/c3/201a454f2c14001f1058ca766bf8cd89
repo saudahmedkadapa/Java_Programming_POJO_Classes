@@ -1,0 +1,27 @@
+package com.demo.dao;
+
+
+import java.util.Scanner;
+
+import com.demo.bean.Student;
+
+public class StudentDao implements StudentDaoImpl {
+	
+	private Student obj;
+	
+	
+	
+	
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

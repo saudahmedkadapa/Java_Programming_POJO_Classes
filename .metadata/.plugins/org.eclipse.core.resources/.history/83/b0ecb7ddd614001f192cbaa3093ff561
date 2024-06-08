@@ -1,0 +1,13 @@
+package com.demo.Dao;
+
+import com.demo.Beans.Student;
+
+public class StudentDao {
+	static Student[] stud;
+	static
+	{
+	stud=new Student[10];
+	}
+	
+
+}

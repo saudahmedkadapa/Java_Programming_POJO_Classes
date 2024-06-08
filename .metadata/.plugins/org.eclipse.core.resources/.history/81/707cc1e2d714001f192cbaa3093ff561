@@ -1,0 +1,31 @@
+package com.demo.Dao;
+
+import com.demo.Beans.Student;
+
+public class StudentDao {
+	static Student[] stud;
+	int count=0;
+	static
+	{
+	stud=new Student[10];
+	
+	}
+	
+	public void add(Student s)
+	{
+		if(count<stud.length) {
+			stud[count]=s;
+			count++;	
+			System.out.println("added");
+		}
+		else {
+			System.out.println("array is full");
+		}
+	}
+
+	public Student[] get() {
+		
+		return stud;
+	}
+
+}

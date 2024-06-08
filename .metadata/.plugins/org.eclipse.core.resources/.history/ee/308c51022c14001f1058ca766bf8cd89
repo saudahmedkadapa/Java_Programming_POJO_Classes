@@ -1,0 +1,8 @@
+package com.demo.Service;
+
+import com.demo.dao.StudentDao;
+
+public class StudentService implements StudentServiceImpl {
+	private StudentDao obj;
+
+}

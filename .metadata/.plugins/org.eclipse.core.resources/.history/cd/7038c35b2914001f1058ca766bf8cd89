@@ -1,0 +1,24 @@
+package com.demo.Test;
+
+import java.lang.reflect.Constructor;
+
+import com.demo.beans.Student;
+
+public class MyTest {
+
+	public static void main(String[] args) {
+		Student obj=new Student();
+		Class cls =obj.getClass();
+		
+		Constructor[] c1 = cls.getConstructors();
+	
+		for(Constructor a:c1)
+		{
+			System.out.println(a.getName());
+		}
+		
+		
+
+	}
+
+}

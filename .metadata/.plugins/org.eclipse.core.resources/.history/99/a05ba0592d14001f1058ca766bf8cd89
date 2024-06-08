@@ -1,0 +1,13 @@
+package com.demo.Test;
+
+import com.demo.beans.Rectangle;
+
+public class RectangleMyTest {
+
+	public static void main(String[] args) {
+		Rectangle reobj=new Rectangle();
+		Class cls =reobj.getClass();
+
+	}
+
+}

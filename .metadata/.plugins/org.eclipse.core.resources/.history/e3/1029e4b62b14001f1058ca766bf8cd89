@@ -1,0 +1,19 @@
+package com.demo.dao;
+
+
+import com.demo.bean.Student;
+
+public class StudentDao implements StudentDaoImpl {
+	
+	private Student obj;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

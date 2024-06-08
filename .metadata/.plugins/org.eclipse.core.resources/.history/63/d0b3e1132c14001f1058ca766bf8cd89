@@ -1,0 +1,7 @@
+package com.demo.dao;
+
+public interface StudentDaoImpl {
+	void marks(int m1,int m2,int m3);
+	
+
+}

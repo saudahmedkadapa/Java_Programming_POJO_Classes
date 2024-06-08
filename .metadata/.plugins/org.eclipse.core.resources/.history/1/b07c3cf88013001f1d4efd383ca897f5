@@ -1,0 +1,13 @@
+package com.demo.test;
+
+import com.demo.bean.MyClass;
+
+public class MyClassTest {
+
+	public static void main(String[] args) {
+		MyClass obj=new MyClass(12,"Saud");
+		Class cls=obj.getClass();
+
+	}
+
+}

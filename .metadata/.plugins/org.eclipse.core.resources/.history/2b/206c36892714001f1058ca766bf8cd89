@@ -1,0 +1,26 @@
+package com.demo.Test;
+
+import java.util.Scanner;
+
+import com.demo.Service.NumberService;
+import com.demo.beans.MyClass;
+public class MyTest {
+
+	public static void main(String[] args) {
+		NumberService ns=new NumberService();
+		System.out.println("ENter the number=");
+		
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		if(ns.isPrime(n))
+		{
+			System.out.println(" prime number");
+		}else
+		{
+			System.out.println(" not a prime number");
+		}
+	
+	}
+
+}

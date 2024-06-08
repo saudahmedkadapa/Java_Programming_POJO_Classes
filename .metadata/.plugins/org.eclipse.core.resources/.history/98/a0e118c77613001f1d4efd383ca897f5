@@ -1,0 +1,12 @@
+package com.demo.Service;
+
+import com.demo.Dao.NumberDao;
+
+public class NumberService {
+	NumberDao ndao=null;
+
+	public NumberService() {
+		super();
+	}
+
+}

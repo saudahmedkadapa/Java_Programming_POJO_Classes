@@ -1,0 +1,28 @@
+package com.demo.test;
+
+
+
+import java.lang.reflect.Constructor;
+
+import com.demo.bean.MyClass;
+
+public class MyClassTest {
+
+	public static void main(String[] args) {
+		MyClass obj=new MyClass(12,"Saud",4.5f);
+		Class cls=obj.getClass();
+		
+		Constructor[] carr=cls.getConstructors();
+		for(Constructor c : carr)
+		{
+			System.out.println(c.getName());
+			//System.out.println(c.getParameterCount());
+			
+		}
+		
+		
+	
+
+	}
+
+}

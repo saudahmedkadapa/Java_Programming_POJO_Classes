@@ -1,0 +1,22 @@
+package com.demo.Test;
+
+import java.util.Scanner;
+
+import com.demo.Service.StudentService;
+
+public class MyTest {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		 StudentService obj;
+		 System.out.println("Enter the marks=");
+		 int marks1=sc.nextInt();
+			int marks2=sc.nextInt();
+			int marks3=sc.nextInt();
+		
+		
+
+	}
+
+}

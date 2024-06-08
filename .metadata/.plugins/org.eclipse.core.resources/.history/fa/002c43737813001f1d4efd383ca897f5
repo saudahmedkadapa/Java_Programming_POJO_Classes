@@ -1,0 +1,19 @@
+package com.demo.Service;
+
+import com.demo.Dao.NumberDao;
+
+public class NumberService {
+	NumberDao ndao=new NumberDao();
+
+	public NumberService() {
+		super();
+	}
+	void show() {
+		ndao.isprime(5);
+}
+	
+}
+	
+	
+
+

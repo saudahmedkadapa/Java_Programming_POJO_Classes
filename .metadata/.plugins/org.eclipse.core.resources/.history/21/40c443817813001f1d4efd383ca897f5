@@ -1,0 +1,20 @@
+package com.demo.Test;
+
+import java.util.Scanner;
+
+import com.demo.Service.NumberService;
+import com.demo.beans.MyClass;
+public class MyTest {
+
+	public static void main(String[] args) {
+		NumberService ns=new NumberService();
+		
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		
+		MyClass ob = new MyClass(n);
+	
+	}
+
+}

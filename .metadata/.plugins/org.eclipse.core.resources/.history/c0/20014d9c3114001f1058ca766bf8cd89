@@ -1,0 +1,28 @@
+package com.demo.Test;
+
+import java.util.Enumeration;
+import java.util.Vector;
+
+public class VectorCollection {
+
+	public static void main(String[] args) {
+		Vector<String> obj=new Vector<String>();
+		obj.add("Saud");
+		obj.add("Krunal");
+		obj.add("Harshay");
+		obj.add("Nagesh");
+		obj.add(2, "Danish");
+		System.out.println("Element="+obj);
+		Enumeration enumobj = obj.elements(); 
+		
+		System.out.println("Elements after Enumeration");
+		while(enumobj.hasMoreElements())
+		{
+			System.out.println(enumobj.nextElement());
+		}
+		
+		
+
+	}
+
+}

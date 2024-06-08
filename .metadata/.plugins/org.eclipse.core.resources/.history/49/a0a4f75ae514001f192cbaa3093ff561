@@ -1,0 +1,11 @@
+package com.demo.Test;
+
+public class ReadTest {
+
+	public static void main(String[] args) {
+		FileInputStream fn=new File
+		
+
+	}
+
+}

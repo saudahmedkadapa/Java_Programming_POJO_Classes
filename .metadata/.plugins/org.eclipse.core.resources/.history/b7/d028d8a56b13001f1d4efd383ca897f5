@@ -1,0 +1,14 @@
+package com.demo.Test;
+
+import com.demo.beans.MyClass;
+
+public class MyTest {
+
+	public static void main(String[] args) {
+		MyClass obj=new MyClass();
+		obj.Isprime(17);
+		System.out.println(obj.Addition(15));
+
+	}
+
+}

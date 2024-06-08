@@ -1,0 +1,22 @@
+package com.demo.dao;
+
+import java.util.Scanner;
+
+import com.demo.bean.Student;
+
+public class StudentDao implements StudentDaoImpl {
+	
+	private Student obj;
+	
+	Scanner sc=new Scanner(System.in);
+	
+	
+	
+	
+	int marks1=sc.nextInt();
+	int marks2=sc.nextInt();
+	int marks3=sc.nextInt();
+	
+	
+
+}

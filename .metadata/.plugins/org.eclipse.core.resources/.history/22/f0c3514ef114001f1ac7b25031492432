@@ -1,0 +1,27 @@
+package com.demo.Test;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class ReadFileAssig {
+
+	public static void main(String[] args) {
+		try {
+			FileInputStream fis=new FileInputStream("demo.txt");
+			int i=0;
+			while(i=fis.read())!=-1)
+{
+	
+}
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+
+	}
+
+}

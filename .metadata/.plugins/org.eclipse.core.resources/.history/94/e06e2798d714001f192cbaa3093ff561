@@ -1,0 +1,14 @@
+package com.demo.Test;
+
+import com.demo.Service.StudentService;
+
+public class MyTest {
+
+	public static void main(String[] args) {
+		
+		StudentService ss = new StudentService();
+		ss.addstudent();
+
+	}
+
+}

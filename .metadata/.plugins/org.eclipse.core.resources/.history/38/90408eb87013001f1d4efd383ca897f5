@@ -1,0 +1,54 @@
+package com.demo.beans;
+
+public class MyClass {
+	public void Isprime(int n)
+	{
+		boolean flag=false;
+		for(int i=2;i<Math.sqrt(n);i++)
+		{
+			if(n%i==0)
+			{
+				flag=true;
+				break;
+				
+			}	
+		}
+		if(flag==true)
+		{
+			System.out.println("Not a Prime Number");
+		}
+		else
+		{
+			System.out.println("Prime Number!!!");
+		}
+		
+	}
+	
+	public int Addition(int a)
+	{
+		int sum=0;
+		while(a!=0)
+		{
+			int rem=a%10;
+			sum=sum+rem;
+			a=a/10;
+		}
+		return sum;
+		
+	}
+	
+	public void sqaure(int s)
+	{
+		int sq=1;
+		while(s!=0)
+		{
+			int rem=s%10;
+			System.out.println("Sqaure of digit "+rem +" = "+ (int)(Math.pow(rem, 2)));
+			s=s/10;
+			
+			
+		}
+		
+	}
+
+}

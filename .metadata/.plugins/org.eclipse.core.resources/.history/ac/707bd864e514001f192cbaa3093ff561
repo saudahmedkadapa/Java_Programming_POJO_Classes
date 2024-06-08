@@ -1,0 +1,23 @@
+package com.demo.Test;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class ReadTest {
+
+	public static void main(String[] args) {
+		
+		try {
+			FileInputStream fn=new FileInputStream("demo.txt");
+			int=fn.read();
+			System.out.println(i);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+
+	}
+
+}
